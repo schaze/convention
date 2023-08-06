@@ -125,7 +125,7 @@ If this root topic does not suit your needs (in case of, e.g., a public broker o
 you can change the first segment, but the `"/5/"` segment must be retained. This allows controllers
 to subscribe to only the devices they are compatible with.
 
-Homie 5 controllers must by default perform auto-discovery on the wildcard topic `"+/5/+/$state"`.
+Homie 5 controllers must by default perform auto-discovery on the wildcard topic `"+/5/+/$description"`.
 Controllers are free to restrict discovery to a specific root topic, configurable by the user.
 
 ## Topology
